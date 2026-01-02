@@ -1,0 +1,51 @@
+/* ===== Roboto regular 400 ===== */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto-Regular.eot');
+    src: url('./Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Roboto-Regular.woff2') format('woff2'),
+        url('./Roboto-Regular.woff') format('woff'),
+        url('./Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+/* ===== Roboto bold 700 ===== */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto-Bold.eot');
+    src: url('./Roboto-Bold.eot') format('embedded-opentype'),
+        url('./Roboto-Bold.woff2') format('woff2'),
+        url('./Roboto-Bold.woff') format('woff'),
+        url('./Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* ===== Nunito regular 400 ===== */
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-Regular.eot');
+    src: url('./Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Nunito-Regular.woff2') format('woff2'),
+        url('./Nunito-Regular.woff') format('woff'),
+        url('./Nunito-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+/* ===== Nunito bold 700 ===== */
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-Bold.eot');
+    src: url('./Nunito-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./Nunito-Bold.woff2') format('woff2'),
+        url('./Nunito-Bold.woff') format('woff'),
+        url('./Nunito-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+}
