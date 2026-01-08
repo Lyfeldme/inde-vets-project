@@ -524,6 +524,14 @@
     background-color: var(--color-background-secondary);
   }
 
+  .audience__title-vets {
+    text-align: center;
+  }
+
+  .audience__description-vets {
+    text-align: center;
+  }
+
   .audience-hospitals {
     display: flex;
     flex-direction: column;
@@ -535,12 +543,21 @@
     background-color: var(--color-background-secondary);
   }
 
+  .audience__title-hospitals {
+    text-align: center;
+  }
+
+  .audience__description-hospitals {
+    text-align: center;
+  }
+
   .work__subtitle {
     padding-right: 0;
   }
 
   .work__title {
     margin-top: 0;
+    padding: 0 14px;
   }
 
   .start__container {
@@ -575,7 +592,7 @@
 
   .work__container {
     margin-top: 0;
-    padding: 0 4px;
+    padding: 0;
   }
 
   .footer__list {
