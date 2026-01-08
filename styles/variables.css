@@ -1,0 +1,92 @@
+/* ============================================
+  CSS VARIABLES SYSTEM
+  ============================================ */
+
+  :root {
+
+    /* ========== COLOR ========== */
+
+    /* Main colors brand */
+    --color-primary: #60C1BD;
+    --color-primary-light: #8BC441;
+    --color-primary-dark: #284854;
+
+    /* Background colors */
+    --color-background-primary: #FFFFFF;
+    --color-background-secondary: #F4F6F0;
+    --color-background-accent: #D3DAC3;
+    --color-background-dark: #284854;
+
+    /* Text colors */
+    --color-text-primary: #284854;
+    --color-text-secondary: #60C1BD;
+    --color-text-light: #FFFFFF;
+    --color-text-accent: #8BC441;
+    --color-text-muted: #798B56;
+
+    /* Borders and contours */
+    --color-border-primary: #60C1BD;
+    --color-border-light: #FFFFFF;
+
+    /* ========== TYPOGRAPHY ========== */
+
+    /* Fonts */
+    --font-family-primary: 'Nunito', sans-serif;
+    --font-family-secondary: 'Roboto', sans-serif;
+
+    /* Font sizes */
+    --font-size-xs: clamp(0.6875rem, 0.6518rem + 0.1786vw, 0.8125rem);
+    --font-size-sm: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    --font-size-base: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
+    --font-size-md: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+    --font-size-lg: clamp(1.125rem, 1.0536rem + 0.3571vw, 1.375rem);
+    --font-size-xl: clamp(1.5rem, 1.2679rem + 1.1607vw, 2.3125rem);
+    --font-size-2xl: clamp(1.75rem, 1.5357rem + 1.0714vw, 2.5rem);
+    --font-size-3xl: clamp(2.5rem, 2.2321rem + 1.3393vw, 3.4375rem);
+    --font-size-4xl: clamp(2.8125rem, 2.0982rem + 3.5714vw, 5.3125rem);
+
+    /* Font sizes for specific elements */
+    --font-size-logo: clamp(24px, 2.5vw, 30px);
+    --font-size-menu: clamp(14px, 1.5vw, 18px);
+
+    /* Outlines */
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    /* Line spacing */
+    --line-height-tight: 120%;
+    --line-height-normal: 140%;
+    --line-height-relaxed: 180%;
+    --line-height-loose: 192%;
+
+    /* ========== DIMENSIONS AND MARGINS ========== */
+
+    /* Basic indentation */
+    --spacing-unit: 4px;
+
+    /* Adaptive margins */
+    --spacing-responsive-sm: clamp(4px, 0.8vw, 3px);
+    --spacing-responsive-md: clamp(15px, 2vw, 20px);
+    --spacing-responsive-lg: clamp(30px, 5vw, 90px);
+    --spacing-responsive-xl: clamp(40px, 8vw, 128px);
+
+    /* Section heights */
+    --section-height-hero: 799px;
+    --section-height-start: 398px;
+    /* --section-height-footer: 400px; */
+    --section-height-footer: 444px;
+
+    /* ========== CONTAINER SIZES ========== */
+
+    --container-max-width: 1230px;
+    --container-wide-max-width: 1200px;
+    --container-narrow-max-width: 998px;
+
+    /* ========== BORDERS AND ROUNDING ========== */
+
+    --border-radius-sm: 5px;
+    --border-radius-md: 50px;
+    --border-radius-circle: 50%;
+    --border-width-thin: 1px;
+    --border-width-medium: 2px;
+  }

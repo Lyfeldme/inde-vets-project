@@ -3,15 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IndeVets - Veterinary staffing done right">
     <link rel="stylesheet" href="./fonts/font.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/reset.css">
     <title>IndeVets</title>
   </head>
   <body>
-    <!-- Section header -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header class="header">
       <div class="header__container">
         <a class="header__logo" href="#!">IndeVets</a>
+        <button class="header__mobile-toggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        </button>
         <div class="header__actions">
           <nav class="header__menu">
             <ul class="header__menu-list">
@@ -30,24 +39,38 @@
           Login
           </button>
         </div>
+        <div class="header__mobile-menu">
+          <ul class="header__mobile-list">
+            <li class="header__mobile-item">
+              <a class="header__mobile-link" href="#!">Veterinarians</a>
+            </li>
+            <li class="header__mobile-item">
+              <a class="header__mobile-link" href="#!">Hospitals</a>
+            </li>
+            <li class="header__mobile-item">
+              <a class="header__mobile-link" href="#!">Why IndeVets?</a>
+            </li>
+          </ul>
+          <button class="header__mobile-login">Login</button>
+        </div>
       </div>
     </header>
-    <main>
-      <!-- Section hero -->
+    <main id="main-content">
       <section class="hero">
         <div class="hero__container">
           <div class="hero__content">
             <h1 class="hero__title">Veterinary staffing done right.</h1>
             <p class="hero__desription">
-              IndeVets is on a mission to make veterinary medicine better. We unite the nation’s top 
+              IndeVets is on a mission to make veterinary medicine better. We unite the nation's top 
               veterinarians and animal hospitals to deliver what matters most in animal care –– happy, 
               healthy doctors performing at their best.
             </p>
           </div>
-          <div class="hero__image"></div>
+          <div class="hero__image-wrapper">
+            <div class="hero__image"></div>
+          </div>
         </div>
       </section>
-      <!-- Section audience -->
       <section class="audience">
         <div class="audience__container">
           <div class="audience-vets">
@@ -66,15 +89,16 @@
           </div>
         </div>
       </section>
-      <!-- Section work -->
       <section class="work">
         <div class="work__container">
           <div class="work__intro">
-            <p class="work__subtitle">Let’s start at the beginning</p>
+            <p class="work__subtitle">Let's start at the beginning</p>
             <h2 class="work__title">How IndeVets Works</h2>
           </div>
           <article class="work__specialists">
-            <div class="work__specialists-image"></div>
+            <div class="work__specialists-wrapper">
+              <div class="work__specialists-image"></div>
+            </div>
             <div class="work__specialists-content">
               <span class="work__specialists-number">Step one...</span>
               <h2 class="work__specialists-title">We hire great vets.</h2>
@@ -88,19 +112,23 @@
             <div class="work__partnerships-content">
               <span class="work__partnerships-number">Next..</span>
               <h2 class="work__partnerships-title">We partner with the best workplaces.</h2>
-              <p class="work__partnerships-text">We’ve built partnerships with more than 800 forward-thinking, <span class="text-underline">best-in-class hospitals.</span> We expect 
+              <p class="work__partnerships-text">We've built partnerships with more than 800 forward-thinking, <span class="text-underline">best-in-class hospitals.</span> We expect 
                 a lot from our vets, so the same applies to our hospitals. We partner with hospitals that not only have high medical standards, 
                 but also have a commitment to maintaining a healthy workplace for staff and patients.
               </p>
             </div>
-            <div class="work__partnerships-image"></div>
+            <div class="work__partnerships-wrapper">
+              <div class="work__partnerships-image"></div>
+            </div>
           </article>
           <article class="work__schedules">
-            <div class="work__schedules-image"></div>
+            <div class="work__schedules-wrapper">
+              <div class="work__schedules-image"></div>
+            </div>
             <div class="work__schedules-content">
               <span class="work__schedules-number">The result?</span>
               <h2 class="work__schedules-title">Happy vets. Happy hospitals. Better medicine.</h2>
-              <p class="work__schedules-text">When doctors are in control of their schedules, they’re happier. Same goes for hospital teams who 
+              <p class="work__schedules-text">When doctors are in control of their schedules, they're happier. Same goes for hospital teams who 
                 can breathe easier about their staffing. Together, our doctors and hospital partners are making the world of veterinary medicine 
                 a better, happier place.
               </p>
@@ -108,14 +136,15 @@
           </article>
         </div>
       </section>
-      <!-- Section mission -->
       <section class="mission">
         <div class="mission__container">
-          <div class="mission__image"></div>
+          <div class="mission__image-wrapper">
+            <div class="mission__image"></div>
+          </div>
           <div class="mission__content">
             <h2 class="mission__subtitle">Who We Are</h2>
             <h3 class="mission__title">Our Mission</h3>
-            <p class="mission__text">Our team is united by a mission to make veterinary medicine better. We’ve been through the long rotations, the office drama, and 
+            <p class="mission__text">Our team is united by a mission to make veterinary medicine better. We've been through the long rotations, the office drama, and 
               the last-minute schedule changes. It drove the joy out of our jobs and, more importantly, out of our lives. So we took it upon 
               ourselves to make a change.
             </p>
@@ -123,12 +152,11 @@
           </div>
         </div>
       </section>
-      <!-- Section start -->
       <section class="start">
         <div class="start__container">
           <div class="start__image"></div>
           <div class="start__content">
-            <h2 class="start__title">Sounds pretty good, right? Let’s do this.</h2>
+            <h2 class="start__title">Sounds pretty good, right? Let's do this.</h2>
             <div class="start__content-text">
               <p class="start__description">
                 I want to be an IndeVet. Take me to the application page!
@@ -141,9 +169,8 @@
         </div>
       </section>
     </main>
-    <!-- Footer -->
     <footer class="footer">
-      <div class="footer__container container">
+      <div class="footer__container">
         <div class="footer__top">
           <nav class="footer__menu">
             <h3 class="footer__title">Veterinarians</h3>
@@ -178,7 +205,7 @@
           <div class="footer__image"></div>
           <div class="footer__contacts">
             <h3 class="footer__title">Find Us</h3>
-            <address class="footer__address address">
+            <address class="footer__address">
               <div class="address__info">
                 <p class="address__street">990 Spring Garden Street</p>
                 <p class="address__suite">Suite 402</p>
@@ -219,8 +246,9 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <p class="footer__copyright">© IndeVets 2021</p>
+        <p class="footer__copyright"><a class="copyright__link" href="https://www.figma.com/design/gy3kxoxfNFs1idUtj2ojnf/IndeVets?m=auto&t=ZZc7khX8QcVQgnmf-6">© IndeVets 2026</a></p>
       </div>
     </footer>
+    <script src="./styles/javascript.js"></script>
   </body>
 </html>
